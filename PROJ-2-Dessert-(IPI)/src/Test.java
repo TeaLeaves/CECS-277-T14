@@ -1,3 +1,5 @@
+/**tester to make sure the code all works!
+ */
 public class Test {
     public static void main(String[] args){
         //start a new checkout

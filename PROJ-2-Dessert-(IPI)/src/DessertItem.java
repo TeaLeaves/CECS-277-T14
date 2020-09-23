@@ -1,3 +1,5 @@
+/**item of desserts (parent class)
+ */
 public abstract class DessertItem {
 
     protected String name;

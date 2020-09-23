@@ -1,3 +1,5 @@
+/**ice cream dessert item
+ */
 public class IceCream extends DessertItem {
     //instance variable
     private double ICECREAM_COST;
@@ -58,7 +60,7 @@ public class IceCream extends DessertItem {
 
     @Override
     public double getCost() {
-        return Math.round(ICECREAM_COST*100)/100;
+        return Math.round(ICECREAM_COST*100.00)/100.00;
     }
 
     @Override

@@ -1,7 +1,7 @@
 import java.util.ArrayList;
-//System.out.printf("\nTotal Salary: $%.2f",total);
-
-//methods to enter dessert items
+/** proceed to pay for the dessert items being bought
+ * methods to enter dessert items into checkout to pay
+ */
 public class Checkout{
     //instance variable
     private ArrayList<DessertItem> cashRegister = new ArrayList<DessertItem>();

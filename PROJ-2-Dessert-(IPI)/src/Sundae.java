@@ -1,3 +1,5 @@
+/**sundae dessert item
+ */
 public class Sundae extends IceCream{
     //instance variable
     private double TOPPING_COST;
@@ -58,6 +60,6 @@ public class Sundae extends IceCream{
 
     @Override
     public double getCost() {
-        return Math.round((super.getCost()+TOPPING_COST)*100)/100;
+        return Math.round((super.getCost()+TOPPING_COST)*100.00)/100.00;
     }
 }

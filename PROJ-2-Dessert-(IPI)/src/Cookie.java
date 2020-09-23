@@ -1,3 +1,5 @@
+/**cookie dessert item
+ */
 public class Cookie extends DessertItem {
     //instance variables
     private int numCookies;
@@ -31,7 +33,7 @@ public class Cookie extends DessertItem {
     /**get the number of cookies
      * @return: integers of number of cookies
      */
-    public double getnumCookies() {
+    public int getnumCookies() {
         return numCookies;
     }
 
@@ -82,7 +84,7 @@ public class Cookie extends DessertItem {
 
     @Override
     public double getCost() {
-        return Math.round(numCookies*PRICE_PER_DOZEN*100)/100;
+        return Math.round(numCookies*PRICE_PER_DOZEN*100.00)/100.00;
     }
 
     @Override

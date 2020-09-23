@@ -1,3 +1,5 @@
+/**candy dessert item
+ */
 public class Candy extends DessertItem{
     //instance variables
     private double weight; //weight of candy item by lbs.
@@ -84,7 +86,7 @@ public class Candy extends DessertItem{
 
     @Override
     public double getCost() {
-        return Math.round(weight*PRICE_PER_POUND*100)/100;
+        return Math.round(weight*PRICE_PER_POUND*100.00)/100.00;
     }
 
     @Override
