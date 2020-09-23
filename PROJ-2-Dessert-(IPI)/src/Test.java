@@ -14,8 +14,9 @@ public class Test {
         buy.addItem(new Sundae("Orange", "Wafer", 1.25, 955));
 
 
-
         //print out the receipt
         System.out.println(buy.toString());
+
+        
     }
 }

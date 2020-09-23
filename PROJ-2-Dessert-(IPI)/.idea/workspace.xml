@@ -2,12 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="594e5c66-e558-437a-8416-63b2d6caca1e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Candy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Candy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Checkout.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Checkout.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Cookie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cookie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DessertItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DessertItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IceCream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IceCream.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sundae.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sundae.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -175,8 +169,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="42" selection-start-column="42" selection-end-column="42" />
+            <state relative-caret-position="323">
+              <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -465,8 +459,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="42" selection-start-column="42" selection-end-column="42" />
+        <state relative-caret-position="323">
+          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
         </state>
       </provider>
     </entry>
