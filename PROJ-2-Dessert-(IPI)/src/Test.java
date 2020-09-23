@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 /**testers to make sure the code all works!
  */
 public class Test {
@@ -111,10 +113,31 @@ public class Test {
         System.out.println("\n---------------------------------------------\n");
 
         //DESSERT ITEM TESTER
-        System.out.println("Test Dessert Item's Comparable: ");
+        System.out.println("Test Max of Different Dessert Types: ");
         System.out.println(gummy.getName() + " " + gummy.getCalories() + " cal. v.s. " + snickerdoodle.getName() + " " + snickerdoodle.getCalories() + " cal.: " + DessertItem.max(gummy,snickerdoodle).getName());
         System.out.println(taffy.getName() + " " + taffy.getCalories() + " cal. v.s. " + vanilla.getName() + " " + vanilla.getCalories() + " cal.: " + DessertItem.max(taffy,vanilla).getName());
+        //seperator to keep it neat
+        System.out.println("\n---------------------------------------------\n");
+        System.out.println("Test Max of Same Dessert Types: ");
         System.out.println(strawberry.getName() + " " + strawberry.getCalories() + " cal. v.s. " + orange.getName() + " " + orange.getCalories() + "cal.: " + DessertItem.max(strawberry,orange).getName());
-
+        System.out.println(earl_grey.getName() + " " + earl_grey.getCalories() + " cal. v.s. " + vanilla.getName() + " " + vanilla.getCalories() + " cal.: " + DessertItem.max(earl_grey,vanilla).getName());
+        System.out.println("\n---------------------------------------------\n");
+        System.out.println("Unsorted Dessert List: ");
+        ArrayList<DessertItem> list = new ArrayList<>();
+        list.add(gummy);
+        list.add(taffy);
+        list.add(snickerdoodle);
+        list.add(sugar);
+        list.add(earl_grey);
+        list.add(vanilla);
+        for(int i = 0; i < list.size(); i++){
+            System.out.println(list.get(i).getName() + " " + list.get(i).getCalories() + " calories");
+        }
+        System.out.println("\n---------------------------------------------\n");
+        System.out.println("Sorted Dessert List: ");
+        list.sort(DessertItem::compareTo);
+        for(int i = 0; i < list.size(); i++){
+            System.out.println(list.get(i).getName() + " " + list.get(i).getCalories() + " calories");
+        }
     }
 }

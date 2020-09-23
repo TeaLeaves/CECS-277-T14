@@ -2,11 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="594e5c66-e558-437a-8416-63b2d6caca1e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Candy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Candy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Cookie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cookie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DessertItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DessertItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IceCream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IceCream.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sundae.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sundae.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -182,8 +177,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="327">
-              <caret line="116" column="47" selection-start-line="116" selection-start-column="47" selection-end-line="116" selection-end-column="47" />
+            <state relative-caret-position="403">
+              <caret line="139" column="99" lean-forward="true" selection-start-line="139" selection-start-column="99" selection-end-line="139" selection-end-column="99" />
             </state>
           </provider>
         </entry>
@@ -208,8 +203,8 @@
         <option value="$PROJECT_DIR$/src/Cookie.java" />
         <option value="$PROJECT_DIR$/src/IceCream.java" />
         <option value="$PROJECT_DIR$/src/DessertItem.java" />
-        <option value="$PROJECT_DIR$/src/Test.java" />
         <option value="$PROJECT_DIR$/src/Sundae.java" />
+        <option value="$PROJECT_DIR$/src/Test.java" />
       </list>
     </option>
   </component>
@@ -294,7 +289,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="740" y="0" width="804" height="872" extended-state="0" />
+    <frame x="55" y="-7" width="1488" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
@@ -310,7 +305,7 @@
       <window_info anchor="bottom" id="Messages" weight="0.32972974" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32972974" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32707775" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -480,8 +475,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="116" column="47" selection-start-line="116" selection-start-column="47" selection-end-line="116" selection-end-column="47" />
+        <state relative-caret-position="403">
+          <caret line="139" column="99" lean-forward="true" selection-start-line="139" selection-start-column="99" selection-end-line="139" selection-end-column="99" />
         </state>
       </provider>
     </entry>
