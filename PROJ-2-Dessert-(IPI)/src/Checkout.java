@@ -15,6 +15,7 @@ public class Checkout{
     Checkout() {
         ArrayList<DessertItem> cashRegister = new ArrayList<DessertItem>();
         cost = 0.00;
+        taxRate = 0;
     }
 
     //methods
@@ -46,7 +47,7 @@ public class Checkout{
 
     //total tax for items rounded to nearest cent
     public double totalTax(){
-        return Math.round(totalCost()*getTax()*100/100);
+        return cost*getTax();
     }
 
     //string format of Total Cost
@@ -61,8 +62,8 @@ public class Checkout{
 
     //String format of Final Cost
     public String getFinalCost(){
-        double cost = totalCost() + totalTax();
-        return String.format("%.2f", cost);
+        double finalCost = cost + totalTax();
+        return String.format("%.2f", finalCost);
     }
 
     /**
@@ -77,7 +78,7 @@ public class Checkout{
      * @return tax for this purchase
      */
     public double getTax(){
-        return taxRate/100;
+        return taxRate/100.0f;
     }
 
     //toString = receipt
