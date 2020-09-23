@@ -24,7 +24,6 @@ public class IceCream extends DessertItem {
     //methods
 
     //mutator
-
     /**
      * set the name of the ice cream
      * @param name: the type of ice cream
@@ -47,6 +46,14 @@ public class IceCream extends DessertItem {
      */
     public void setICECREAM_COST(double ICECREAM_COST) {
         this.ICECREAM_COST = ICECREAM_COST;
+    }
+
+    /** accessor
+     * get the string format of getCost()
+     * @return cost of dessert item
+     */
+    public String getStringCost(){
+        return String.format("%.2f", getCost());
     }
 
     @Override

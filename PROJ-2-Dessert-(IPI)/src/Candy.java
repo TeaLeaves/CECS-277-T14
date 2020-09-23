@@ -43,6 +43,14 @@ public class Candy extends DessertItem{
         return PRICE_PER_POUND;
     }
 
+    /**
+     * get the string format of getCost()
+     * @return cost of dessert item
+     */
+    public String getStringCost(){
+        return String.format("%.2f", getCost());
+    }
+
     //muators
 
     /**set the name of the candy item

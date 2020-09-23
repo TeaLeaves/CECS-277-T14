@@ -49,6 +49,22 @@ public class Checkout{
         return Math.round(totalCost()*getTax()*100/100);
     }
 
+    //string format of Total Cost
+    public String getTotalCost(){
+        return String.format("%.2f", totalCost());
+    }
+
+    //String format of Total Tax
+    public String getTotalTax(){
+        return String.format("%.2f", totalTax());
+    }
+
+    //String format of Final Cost
+    public String getFinalCost(){
+        double cost = totalCost() + totalTax();
+        return String.format("%.2f", cost);
+    }
+
     /**
      * set the tax rate for purchase
      */
@@ -79,26 +95,26 @@ public class Checkout{
             if(cashRegister.get(i) instanceof Candy) {
                 receipt = receipt + ((Candy) cashRegister.get(i)).getWeight() + " lbs. @ ";
                 receipt = receipt + ((Candy) cashRegister.get(i)).getPRICE_PER_POUND() + " /lb.\n";
-                receipt = receipt + ((Candy) cashRegister.get(i)).getName() + "  " + ((Candy) cashRegister.get(i)).getCalories() + "\n";
-                receipt = receipt + ((Candy) cashRegister.get(i)).getCost() + "\n";
+                receipt = receipt + ((Candy) cashRegister.get(i)).getName() + "  Calories " + ((Candy) cashRegister.get(i)).getCalories() + "\n";
+                receipt = receipt + "$" + ((Candy) cashRegister.get(i)).getStringCost() + "\n";
             }
             //if cookie
             else if(cashRegister.get(i) instanceof  Cookie){
                 receipt = receipt + ((Cookie) cashRegister.get(i)).getnumCookies() + " @ ";
                 receipt = receipt + ((Cookie) cashRegister.get(i)).getPRICE_PER_DOZEN() + " /dz.\n";
-                receipt = receipt + ((Cookie) cashRegister.get(i)).getName() + "  " + ((Cookie) cashRegister.get(i)).getCalories() + "\n";
-                receipt = receipt + ((Cookie) cashRegister.get(i)).getCost() + "\n";
+                receipt = receipt + ((Cookie) cashRegister.get(i)).getName() + "  Calories " + ((Cookie) cashRegister.get(i)).getCalories() + "\n";
+                receipt = receipt + "$" + ((Cookie) cashRegister.get(i)).getStringCost() + "\n";
             }
             //if ice cream
             else if(cashRegister.get(i) instanceof IceCream){
-                receipt = receipt + ((IceCream) cashRegister.get(i)).name + "  " + ((IceCream) cashRegister.get(i)).getCalories() + "\n";
-                receipt = receipt + ((IceCream) cashRegister.get(i)).getCost() + "\n";
+                receipt = receipt + ((IceCream) cashRegister.get(i)).name + "  Calories " + ((IceCream) cashRegister.get(i)).getCalories() + "\n";
+                receipt = receipt + "$" + ((IceCream) cashRegister.get(i)).getStringCost() + "\n";
             }
             //if sundae
             else if(cashRegister.get(i) instanceof Sundae){
                 receipt = receipt + ((Sundae) cashRegister.get(i)).getName() + "\n";
-                receipt = receipt + ((Sundae) cashRegister.get(i)).getCalories() + "\n";
-                receipt = receipt + ((Sundae) cashRegister.get(i)).getCost() + "\n";
+                receipt = receipt + "Calories " + ((Sundae) cashRegister.get(i)).getCalories() + "\n";
+                receipt = receipt + "$" + ((Sundae) cashRegister.get(i)).getStringCost() + "\n";
             }
             else{
                 receipt = "empty";
@@ -109,11 +125,11 @@ public class Checkout{
         //space for neatness + number of items
         receipt = receipt + "\nNumber of Items: " + numOfItems() + "\n";
         //total cost
-        receipt = receipt + "Total Cost: $" + totalCost() + "\n";
+        receipt = receipt + "Total Cost: $" + getTotalCost() + "\n";
         //total tax
-        receipt = receipt + "Total Tax: $" + totalTax() + "\n";
+        receipt = receipt + "Total Tax: $" + getTotalTax() + "\n";
         //final total
-        receipt = receipt + "Final Total: $" + (totalCost() + totalTax()) + "\n";
+        receipt = receipt + "Final Total: $" + getFinalCost() + "\n";
         //end of receipt
         receipt = receipt + "---------------------------------------------\n";
 

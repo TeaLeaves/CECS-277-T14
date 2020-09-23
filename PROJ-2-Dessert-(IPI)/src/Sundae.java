@@ -48,6 +48,14 @@ public class Sundae extends IceCream{
         this.TOPPING_COST = TOPPING_COST;
     }
 
+    /** accessor
+     * get the string format of getCost()
+     * @return cost of dessert item
+     */
+    public String getStringCost(){
+        return String.format("%.2f", getCost());
+    }
+
     @Override
     public double getCost() {
         return Math.round((super.getCost()+TOPPING_COST)*100)/100;

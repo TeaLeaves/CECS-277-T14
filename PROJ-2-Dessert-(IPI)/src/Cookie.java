@@ -42,6 +42,14 @@ public class Cookie extends DessertItem {
         return PRICE_PER_DOZEN;
     }
 
+    /**
+     * get the string format of getCost()
+     * @return cost of dessert item
+     */
+    public String getStringCost(){
+        return String.format("%.2f", getCost());
+    }
+
     /**set the name of the cookie!
      * @param name: type of cookie
      */
