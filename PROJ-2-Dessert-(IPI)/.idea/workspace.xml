@@ -2,20 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="594e5c66-e558-437a-8416-63b2d6caca1e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Candy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Checkout.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Cookie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DessertItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/IceCream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sundae.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PROJ-1/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PROJ-1/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PROJ-1/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PROJ-1/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PROJ-1/ArrayList-Lottery.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PROJ-1/out/production/ArrayList-Lottery/Lottery.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PROJ-1/src/Lottery.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Checkout.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Checkout.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IceCream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IceCream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sundae.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sundae.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -51,7 +42,7 @@
         <entry file="file://$PROJECT_DIR$/src/Candy.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="901">
-              <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
+              <caret line="53" selection-start-line="53" selection-end-line="53" />
               <folding>
                 <element signature="e#702#703#0" expanded="true" />
                 <element signature="e#731#732#0" expanded="true" />
@@ -104,13 +95,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/IceCream.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+            <state relative-caret-position="850">
+              <caret line="50" selection-start-line="50" selection-end-line="50" />
               <folding>
-                <element signature="e#451#452#0" expanded="true" />
-                <element signature="e#487#488#0" expanded="true" />
-                <element signature="e#733#734#0" expanded="true" />
-                <element signature="e#769#770#0" expanded="true" />
+                <element signature="e#616#617#0" expanded="true" />
+                <element signature="e#664#665#0" expanded="true" />
                 <element signature="e#857#858#0" expanded="true" />
                 <element signature="e#897#898#0" expanded="true" />
                 <element signature="e#660#661#0" expanded="true" />
@@ -127,17 +116,15 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Sundae.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+            <state relative-caret-position="629">
+              <caret line="37" column="47" selection-start-line="37" selection-start-column="47" selection-end-line="37" selection-end-column="47" />
               <folding>
                 <element signature="e#121#122#0" expanded="true" />
                 <element signature="e#153#154#0" expanded="true" />
-                <element signature="e#443#444#0" expanded="true" />
-                <element signature="e#478#479#0" expanded="true" />
-                <element signature="e#735#736#0" expanded="true" />
-                <element signature="e#771#772#0" expanded="true" />
-                <element signature="e#926#927#0" expanded="true" />
-                <element signature="e#963#964#0" expanded="true" />
+                <element signature="e#705#706#0" expanded="true" />
+                <element signature="e#781#782#0" expanded="true" />
+                <element signature="e#951#952#0" expanded="true" />
+                <element signature="e#989#990#0" expanded="true" />
                 <element signature="e#669#670#0" expanded="true" />
                 <element signature="e#717#718#0" expanded="true" />
                 <element signature="e#830#831#0" expanded="true" />
@@ -150,8 +137,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Checkout.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="39" column="43" lean-forward="true" selection-start-line="39" selection-start-column="43" selection-end-line="39" selection-end-column="43" />
+            <state relative-caret-position="391">
+              <caret line="23" column="31" lean-forward="true" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
               <folding>
                 <element signature="e#401#414#0" expanded="true" />
                 <element signature="e#410#411#0" expanded="true" />
@@ -164,6 +151,8 @@
                 <element signature="e#1276#1277#0" expanded="true" />
                 <element signature="e#1274#1275#0" expanded="true" />
                 <element signature="e#1303#1304#0" expanded="true" />
+                <element signature="e#1522#1523#0" expanded="true" />
+                <element signature="e#1548#1549#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -172,8 +161,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="4" lean-forward="true" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+            <state relative-caret-position="119">
+              <caret line="7" column="33" lean-forward="true" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -198,8 +187,8 @@
         <option value="$PROJECT_DIR$/src/Cookie.java" />
         <option value="$PROJECT_DIR$/src/IceCream.java" />
         <option value="$PROJECT_DIR$/src/Sundae.java" />
-        <option value="$PROJECT_DIR$/src/Checkout.java" />
         <option value="$PROJECT_DIR$/src/Test.java" />
+        <option value="$PROJECT_DIR$/src/Checkout.java" />
       </list>
     </option>
   </component>
@@ -229,17 +218,15 @@
               <item name="PROJ-2-Dessert" type="b2602c69:ProjectViewProjectNode" />
               <item name="PROJ-2-Dessert-(IPI)" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="PROJ-2-Dessert" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PROJ-2-Dessert-(IPI)" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
     </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -252,6 +239,20 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test" />
+      <module name="PROJ-2-Dessert-(IPI)" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Test" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -280,9 +281,10 @@
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32972974" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -301,7 +303,7 @@
     <entry file="file://$PROJECT_DIR$/src/Candy.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="901">
-          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
           <folding>
             <element signature="e#702#703#0" expanded="true" />
             <element signature="e#731#732#0" expanded="true" />
@@ -350,13 +352,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/IceCream.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+        <state relative-caret-position="850">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
           <folding>
-            <element signature="e#451#452#0" expanded="true" />
-            <element signature="e#487#488#0" expanded="true" />
-            <element signature="e#733#734#0" expanded="true" />
-            <element signature="e#769#770#0" expanded="true" />
+            <element signature="e#616#617#0" expanded="true" />
+            <element signature="e#664#665#0" expanded="true" />
             <element signature="e#857#858#0" expanded="true" />
             <element signature="e#897#898#0" expanded="true" />
             <element signature="e#660#661#0" expanded="true" />
@@ -386,17 +386,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Sundae.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+        <state relative-caret-position="629">
+          <caret line="37" column="47" selection-start-line="37" selection-start-column="47" selection-end-line="37" selection-end-column="47" />
           <folding>
             <element signature="e#121#122#0" expanded="true" />
             <element signature="e#153#154#0" expanded="true" />
-            <element signature="e#443#444#0" expanded="true" />
-            <element signature="e#478#479#0" expanded="true" />
-            <element signature="e#735#736#0" expanded="true" />
-            <element signature="e#771#772#0" expanded="true" />
-            <element signature="e#926#927#0" expanded="true" />
-            <element signature="e#963#964#0" expanded="true" />
+            <element signature="e#705#706#0" expanded="true" />
+            <element signature="e#781#782#0" expanded="true" />
+            <element signature="e#951#952#0" expanded="true" />
+            <element signature="e#989#990#0" expanded="true" />
             <element signature="e#669#670#0" expanded="true" />
             <element signature="e#717#718#0" expanded="true" />
             <element signature="e#830#831#0" expanded="true" />
@@ -407,8 +405,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Checkout.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="39" column="43" lean-forward="true" selection-start-line="39" selection-start-column="43" selection-end-line="39" selection-end-column="43" />
+        <state relative-caret-position="391">
+          <caret line="23" column="31" lean-forward="true" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
           <folding>
             <element signature="e#401#414#0" expanded="true" />
             <element signature="e#410#411#0" expanded="true" />
@@ -421,14 +419,16 @@
             <element signature="e#1276#1277#0" expanded="true" />
             <element signature="e#1274#1275#0" expanded="true" />
             <element signature="e#1303#1304#0" expanded="true" />
+            <element signature="e#1522#1523#0" expanded="true" />
+            <element signature="e#1548#1549#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="4" lean-forward="true" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+        <state relative-caret-position="119">
+          <caret line="7" column="33" lean-forward="true" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
         </state>
       </provider>
     </entry>

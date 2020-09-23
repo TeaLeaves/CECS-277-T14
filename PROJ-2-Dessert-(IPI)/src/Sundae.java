@@ -22,20 +22,21 @@ public class Sundae extends IceCream{
     }
 
     //methods
-
-    /** accessor
-     * get the cost of the topping for the ice cream
-     * @return: the topping cost
-     */
-    public double getTOPPING_COST() {
-        return TOPPING_COST;
-    }
-
     //mutators
+
+    /**
+     * set the name of the sundae
+     * @param name: the type of ice cream
+     * @param topping: the topping on the ice cream
+     */
     public void setName(String name, String topping){
         this.name = name + "(Sundae) with\n" + topping + "(Topping)";
     }
 
+    /**
+     * set the topping with given param
+     * @param topping: topping on the ice cream
+     */
     public void setTopping(String topping){
         this.topping = topping;
     }

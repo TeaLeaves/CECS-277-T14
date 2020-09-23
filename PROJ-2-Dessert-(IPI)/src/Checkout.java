@@ -62,8 +62,7 @@ public class Checkout{
      * @return tax for this purchase
      */
     public double getTax(){
-        //code
-        return 0.0;
+        return taxRate/100;
     }
 
     //toString = receipt

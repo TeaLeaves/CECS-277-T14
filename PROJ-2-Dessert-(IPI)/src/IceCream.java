@@ -23,14 +23,12 @@ public class IceCream extends DessertItem {
 
     //methods
 
-    /**accessor
-     * get the cost of the ice cream
-     * @return the cost of the ice cream
-     */
-    public double getICECREAM_COST() {
-        return ICECREAM_COST;
-    }
+    //mutator
 
+    /**
+     * set the name of the ice cream
+     * @param name: the type of ice cream
+     */
     public void setName(String name){
         this.name = name + "(Ice Cream)";
     }
@@ -43,7 +41,7 @@ public class IceCream extends DessertItem {
         this.calories = calories;
     }
 
-    /**mutator
+    /**
      * set the cost of the ice cream with the given param
      * @param ICECREAM_COST: given price of the ice cream
      */
