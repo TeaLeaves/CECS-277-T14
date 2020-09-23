@@ -67,4 +67,19 @@ public class IceCream extends DessertItem {
     public int getCalories() {
         return calories;
     }
+
+    @Override
+    public int compareTo(DessertItem calories2) {
+        if(this.getCalories() > calories2.getCalories()){
+            return 5;
+        } else if(this.getCalories() < calories2.getCalories()){
+            return -5;
+        }
+        return 0;
+    }
+
+    @Override
+    public int compareTo(Object o) {
+        return 0;
+    }
 }

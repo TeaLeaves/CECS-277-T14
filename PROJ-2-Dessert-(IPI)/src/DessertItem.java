@@ -1,6 +1,6 @@
 /**item of desserts (parent class)
  */
-public abstract class DessertItem {
+public abstract class DessertItem implements Comparable{
 
     protected String name;
 
@@ -36,4 +36,19 @@ public abstract class DessertItem {
      */
     public abstract int getCalories();
 
+    /**
+     * compare calories of two dessert items
+     * @param calories1: first dessert item's calories
+     * @param calories2: second dessert item's calories
+     * @return the dessert item with the higher calorie
+     */
+    public static DessertItem max(DessertItem calories1, DessertItem calories2){
+        if(calories1.compareTo(calories2) > 0){
+            return calories1;
+        } else{
+            return calories2;
+        }
+    }
+
+    public abstract int compareTo(DessertItem calories2);
 }

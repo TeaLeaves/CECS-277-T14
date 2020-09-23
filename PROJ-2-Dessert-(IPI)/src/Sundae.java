@@ -32,7 +32,7 @@ public class Sundae extends IceCream{
      * @param topping: the topping on the ice cream
      */
     public void setName(String name, String topping){
-        this.name = name + "(Sundae) with\n" + topping + "(Topping)";
+        this.name = name + "(Sundae) w/" + topping + "(Topping)";
     }
 
     /**
@@ -61,5 +61,20 @@ public class Sundae extends IceCream{
     @Override
     public double getCost() {
         return Math.round((super.getCost()+TOPPING_COST)*100.00)/100.00;
+    }
+
+    @Override
+    public int compareTo(DessertItem calories2) {
+        if(this.getCalories() > calories2.getCalories()){
+            return 5;
+        } else if(this.getCalories() < calories2.getCalories()){
+            return -5;
+        }
+        return 0;
+    }
+
+    @Override
+    public int compareTo(Object o) {
+        return 0;
     }
 }
