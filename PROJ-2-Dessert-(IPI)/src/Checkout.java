@@ -1,13 +1,12 @@
 import java.util.ArrayList;
 //System.out.printf("\nTotal Salary: $%.2f",total);
-//
 
 //methods to enter dessert items
 public class Checkout{
     //instance variable
-    ArrayList cashRegister;
-    double cost;
-    int taxRate;
+    private ArrayList<DessertItem> cashRegister = new ArrayList<DessertItem>();
+    private double cost;
+    private int taxRate;
 
     /**
      * default argument constructor
@@ -20,8 +19,8 @@ public class Checkout{
 
     //methods
     //add into cash register
-    public void addItem(DessertItem item){
-        cashRegister.add(item);
+    public void addItem(DessertItem dessert){
+        cashRegister.add(dessert);
     }
 
     //clear cash register
@@ -38,7 +37,7 @@ public class Checkout{
     public double totalCost(){
         for(int i = 0; i < cashRegister.size(); i++){
             if(cashRegister.get(i) instanceof DessertItem) {
-                DessertItem item = (DessertItem)cashRegister.get(i);
+                DessertItem item = cashRegister.get(i);
                 cost += item.getCost();
             }
         }

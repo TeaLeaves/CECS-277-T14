@@ -1,8 +1,8 @@
 public class Cookie extends DessertItem {
     //instance variables
-    int numCookies;
-    double PRICE_PER_DOZEN;
-    int calories;
+    private int numCookies;
+    private double PRICE_PER_DOZEN;
+    private int calories;
 
     /**default argument constructor
      * given no param

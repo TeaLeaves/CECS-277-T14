@@ -1,7 +1,7 @@
 public class Sundae extends IceCream{
     //instance variable
-    double TOPPING_COST;
-    String topping;
+    private double TOPPING_COST;
+    private String topping;
 
     /** default argument constructor
      *  given no param

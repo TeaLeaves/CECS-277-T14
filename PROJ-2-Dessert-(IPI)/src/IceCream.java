@@ -1,7 +1,7 @@
 public class IceCream extends DessertItem {
     //instance variable
-    double ICECREAM_COST;
-    int calories;
+    private double ICECREAM_COST;
+    private int calories;
 
     /** default argument constructor
      *  given no param
