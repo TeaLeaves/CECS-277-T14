@@ -13,6 +13,6 @@ public class Test {
         buy.setTax(15);
 
         //print out the receipt
-        buy.toString();
+        System.out.println(buy.toString());
     }
 }

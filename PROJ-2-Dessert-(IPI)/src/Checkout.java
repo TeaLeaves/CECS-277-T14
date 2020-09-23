@@ -103,16 +103,17 @@ public class Checkout{
             else{
                 receipt = "empty";
             }
+            receipt = receipt + "\n";
         }
 
         //space for neatness + number of items
         receipt = receipt + "\nNumber of Items: " + numOfItems() + "\n";
         //total cost
-        receipt = receipt + "Total Cost: " + totalCost() + "\n";
+        receipt = receipt + "Total Cost: $" + totalCost() + "\n";
         //total tax
-        receipt = receipt + "Total Tax: " + totalTax() + "\n";
+        receipt = receipt + "Total Tax: $" + totalTax() + "\n";
         //final total
-        receipt = receipt + "Final Total: " + (totalCost() + totalTax()) + "\n";
+        receipt = receipt + "Final Total: $" + (totalCost() + totalTax()) + "\n";
         //end of receipt
         receipt = receipt + "---------------------------------------------\n";
 
