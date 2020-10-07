@@ -107,16 +107,14 @@ public class VendingMachine {
             //loop through the products in the vending machine
             for (int i = 0; i < items.size(); i++) {
                 //if product is already in the vending machine, increase the amount
-                if (items.get(i).getItemName() == name) {
+                if (items.get(i).getItemName().toLowerCase().equals(name.toLowerCase()) && items.get(i).getPrice() == cost) {
                     items.get(i).addProduct(amount);
                     return 0;
                 }
-                //if this product is not yet in the Vending Machine,add it in
-                else if (items.get(items.size() - 1).getItemName() != name) {
-                    items.add(new Product(cost, name, amount));
-                    return 0;
-                }
             }
+            //if this product is not yet in the Vending Machine,add it in
+            items.add(new Product(cost, name, amount));
+            return 0;
         }
         return 0;
     }
