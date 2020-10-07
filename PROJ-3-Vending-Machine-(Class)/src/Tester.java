@@ -8,7 +8,6 @@
 import java.util.*;
 public class Tester {
     public static void main(String[] args) {
-
         //input currency being used = I'm using US currency
         final Coin DOLLAR = new Coin(1.0, "Dollar");
         final Coin QUARTER = new Coin(0.25, "Quarter");
@@ -163,6 +162,15 @@ public class Tester {
             }
             //add product
             else if(input == 4){
+                System.out.println("_______________________________________________");
+                System.out.println("| WARNING: This is a small old Vending Machine |");
+                System.out.println("|         so please enter a product name with  |");
+                System.out.println("|         length of 7 or under letters for     |");
+                System.out.println("|         a best maintained looking machine    |");
+                System.out.println("|         Thank You.                           |");
+                System.out.println("_______________________________________________");
+                System.out.println("You see a small warning label as you add in");
+                System.out.println("some more products into the vending machine.\n");
                 //ask for the name of the product
                 System.out.println("Product Name: ");
                 String productType = CheckInput.getString();
@@ -187,7 +195,7 @@ public class Tester {
             //exit
             else {
                 System.out.println("Your Change: $" + register.giveChange() + "\n");
-                System.out.println("Machine Salary: $" + register.getSalary() + "\n");
+                System.out.println("Machine Salary: $" + String.format("%.2f",register.getSalary()) + "\n");
                 System.out.println("Good'Buy'. Please Come Again!");
             }
 
