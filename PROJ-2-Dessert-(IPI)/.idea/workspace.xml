@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="594e5c66-e558-437a-8416-63b2d6caca1e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../PROJ-3-Vending-Machine-(Class)/src/Coin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PROJ-3-Vending-Machine-(Class)/src/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PROJ-3-Vending-Machine-(Class)/src/Tester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PROJ-3-Vending-Machine-(Class)/src/VendingMachine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PROJ-3-Vending-Machine-(Class)/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PROJ-3-Vending-Machine-(Class)/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
