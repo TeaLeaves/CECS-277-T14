@@ -104,6 +104,27 @@ public class Tester {
             }
             //buy product
             else if(input == 3){
+                System.out.println("----------------------------------------------");
+                System.out.println("|     ----------------------------------     |");
+                System.out.println("|    |    OLD SCHOOL VENDING MACHINE    |    |");
+                System.out.println("|     ----------------------------------     |");
+                System.out.println("|--------------------------------------------|");
+                System.out.println("|                                            |");
+                System.out.println("|     ----------------------------------     |");
+
+                //printing out products in a vending machine
+                Scanner scan = new Scanner(register.showProducts());
+                while(scan.hasNext()) {
+                    System.out.print("|    | ");
+                    System.out.printf("%-25s %s\n", scan.nextLine()," |    |");
+                }
+                System.out.println("|     ----------------------------------     |");
+                System.out.println("|                                            |");
+                System.out.println("|              ----------------              |");
+                System.out.println("|             |                |             |");
+                System.out.println("|              ----------------              |");
+                System.out.println("|                                            |");
+                System.out.println("----------------------------------------------");
                 System.out.println("Enter Item Number: ");
                 //get item that user wish to purchase
                 int purchaseNum = CheckInput.getIntRange(0,register.amountOFProducts()-1);
@@ -128,6 +149,7 @@ public class Tester {
 
                 //add in the product into the vending machine
                 register.addProduct(productCost, productType, productAmount);
+                System.out.println(productType + " was Successful Added\n");
             }
             //removes money from machine
             else if(input == 5){
@@ -137,7 +159,7 @@ public class Tester {
             //exit
             else {
                 System.out.println("Machine Salary: $" + register.getSalary() + "\n");
-                System.out.println("Good'Buy'. Please Come Again! ;D");
+                System.out.println("Good'Buy'. Please Come Again!");
             }
 
         }//end loop
