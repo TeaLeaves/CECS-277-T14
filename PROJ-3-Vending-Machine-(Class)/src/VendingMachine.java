@@ -1,5 +1,16 @@
+/**
+ * CECS 277 Project 3
+ * @authors: Matthew Chen, Ryan Ignasiak, Tina Vu
+ * Due Date: 10/07/20
+ * Professor Mimi Opkins
+ *
+ * create a vending machine that contains an array list of product
+ * users can add products and its prices into the vending machine
+ * user can add money into the vending machine
+ * user can buy products from the vending machine
+ * user can receive change from the vending machine or cancel order
+ */
 import java.util.ArrayList;
-
 public class VendingMachine {
     //private data members
     private double purchase;
@@ -19,26 +30,27 @@ public class VendingMachine {
     /**
      * Records the purchase price of an item.
      * @param itemNum product that is being purchased
+     * @return a receipt like message of your purchase
      */
-    public void recordPurchase(int itemNum) {
+    public String recordPurchase(int itemNum) {
         //get the product item
         Product item = items.get(itemNum);
         //if you don't have enough money to buy it
         if(item.getPrice() > payment){
-            System.out.println("Insufficient Money\n");
-            System.out.println("Received Change: $" + giveChange() + "\n");
+            return "Insufficient Money\n" +
+            "Received Change: $" + giveChange() + "\n";
         //if the product ran out
         } else if(item.getAmount() == 0){
-            System.out.println("SOLD OUT");
-            System.out.println("Received Change: $" + giveChange() + "\n");
+            return "SOLD OUT\n" +
+            "Received Change: $" + giveChange() + "\n";
         }
         //else buy it
         else {
             purchase = purchase + item.getPrice();
             item.getProduct();
-            System.out.println("YOU GOT " + item.getItemName());
-            System.out.println("Received Change: $" + giveChange() + "\n");
             salary = salary + item.getPrice();
+            return "YOU GOT " + item.getItemName() + "\n" +
+            "Received Change: $" + giveChange() + "\n";
         }
     }
 
@@ -49,7 +61,14 @@ public class VendingMachine {
      */
     public void receivePayment(double coinCount, Coin coinType){
         payment = payment + (coinCount*coinType.getAmount());
-        System.out.println("Current Amount: $" + String.format("%.2f", payment));
+    }
+
+    /**
+     * let the user see how much money they have entered into the vending machine
+     * @return payment as a string, which is the money they entered into the machine
+     */
+    public String getCurrentAmount(){
+        return String.format("%.2f", payment);
     }
 
     /**

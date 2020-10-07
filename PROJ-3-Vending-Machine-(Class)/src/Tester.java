@@ -1,5 +1,7 @@
+/**
+ * a tester so that the user can use the vending machine
+ */
 import java.util.*;
-import java.util.Scanner;
 public class Tester {
     public static void main(String[] args) {
 
@@ -28,14 +30,7 @@ public class Tester {
 
             //get users menu choice
             System.out.println("Enter Your Choice: ");
-            Scanner in = new Scanner(System.in);
-            input = in.nextInt();
-
-            //make sure input is valid
-            while(input < 1 || input > 6){
-                System.out.println("Invalid Input");
-                input = in.nextInt();
-            }
+            input = CheckInput.getIntRange(1,6);
 
             //run through users choice
             //1 = show products
@@ -70,17 +65,11 @@ public class Tester {
                 System.out.println("2) Dime    @ $0.10");
                 System.out.println("3) Quarter @ $0.25");
                 System.out.println("4) Dollar  @ $1.00");
-                int userType = in.nextInt();
-
-                //make sure the input is valid
-                while(userType < 1 || userType > 4){
-                    System.out.println("Incorrect Input");
-                    userType = in.nextInt();
-                }
+                int userType = CheckInput.getIntRange(1,4);
 
                 //enter amount
                 System.out.println("Enter Money Amount: ");
-                double userAmount = in.nextDouble();
+                double userAmount = CheckInput.getDouble();
 
                 //add it into the vending machine
                 if(userType == 1) {
@@ -95,41 +84,40 @@ public class Tester {
                 else {
                     register.receivePayment(userAmount, DOLLAR);
                 }
+
+                //show the current amount of money in the vending machine
+                System.out.println("Current Amount: $" + register.getCurrentAmount());
             }
             //buy product
             else if(input == 3){
                 System.out.println("Enter Item Number: ");
                 //get item that user wish to purchase
-                int purchaseNum = in.nextInt();
+                int purchaseNum = CheckInput.getIntRange(0,register.amountOFProducts()-1);
 
-                //make sure the number is valid
-                while(purchaseNum < 0 || purchaseNum > (register.amountOFProducts()-1)){
-                    System.out.println("INVALID INPUT. ");
-                    purchaseNum = in.nextInt();
-                }
+                //buy the product and output a message
+                System.out.print(register.recordPurchase(purchaseNum));
 
-                //buy the product
-                register.recordPurchase(purchaseNum);
             }
             //add product
             else if(input == 4){
                 //ask for the name of the product
                 System.out.println("Product Name: ");
-                String productType = in.next();
+                String productType = CheckInput.getString();
 
                 //ask for the cost of the product
                 System.out.println("Product Cost: ");
-                double productCost = in.nextDouble();
+                double productCost = CheckInput.getDouble();
 
                 //ask for the amount of the product
                 System.out.println("Product Amount: ");
-                int productAmount = in.nextInt();
+                int productAmount = CheckInput.getPositiveInt();
 
                 //add in the product into the vending machine
                 register.addProduct(productCost, productType, productAmount);
             }
             //removes money from machine
             else if(input == 5){
+                System.out.println("Canceled Order");
                 System.out.println("Money Returned: $" + register.giveChange() + "\n");
             }
             //exit

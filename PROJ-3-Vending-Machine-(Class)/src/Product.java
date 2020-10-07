@@ -1,3 +1,6 @@
+/**
+ * creates the products that can be placed into the vending machine
+ */
 public class Product {
     //data members
     double price;
