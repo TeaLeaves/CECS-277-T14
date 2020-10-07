@@ -19,6 +19,16 @@ public class Tester {
         //create the vendingMachine
         VendingMachine register = new VendingMachine();
 
+        //lets add some products into the vending machine
+        //so it doesn't look lonely
+        register.addProduct(1.50,"Water", 3);
+        register.addProduct(1.05, "Coke", 3);
+        register.addProduct(1.00, "Lays", 3);
+        register.addProduct(0.50, "Pencil", 5);
+        register.addProduct(0.25,"Tootsie", 5);
+        register.addProduct(.65, "Cookie", 2);
+        register.addProduct(1.25, "Noodles", 1);
+
         //temp
         int input = 1;
 
