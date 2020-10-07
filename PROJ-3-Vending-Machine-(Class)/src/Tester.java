@@ -165,9 +165,9 @@ public class Tester {
                 System.out.println("_______________________________________________");
                 System.out.println("| WARNING: This is a small old Vending Machine |");
                 System.out.println("|         so please enter a product name with  |");
-                System.out.println("|         length of 7 or under letters for     |");
-                System.out.println("|         a best maintained looking machine    |");
-                System.out.println("|         Thank You.                           |");
+                System.out.println("|         length of under 7, but greater than  |");
+                System.out.println("|         3 letters to maintained best looking |");
+                System.out.println("|         machine. Thank You.                  |");
                 System.out.println("_______________________________________________");
                 System.out.println("You see a small warning label as you add in");
                 System.out.println("some more products into the vending machine.\n");
