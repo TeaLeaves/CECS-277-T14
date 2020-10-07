@@ -53,7 +53,7 @@ public class Product {
     /** create a string with the product name, cost, and amount
      * @return "Name: $Cost AMOUNT: ##"
      */
-    public String showProduct(){
+    public String toString(){
         return itemName + ": \t$" + String.format("%.2f",price) + "\t AMOUNT: " + amount;
     }
 

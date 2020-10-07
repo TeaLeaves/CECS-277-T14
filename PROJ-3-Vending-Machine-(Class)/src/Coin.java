@@ -11,6 +11,14 @@ public class Coin {
     private String type;
 
     /**
+     * default constructor
+     */
+    public Coin(){
+        amount = 0;
+        type = "";
+    }
+
+    /**
      * Constructs a coin.
      * @param aValue the monetary value of the coin
      * @param aName the name of the coin

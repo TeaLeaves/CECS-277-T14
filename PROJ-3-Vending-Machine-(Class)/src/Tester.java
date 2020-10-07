@@ -58,7 +58,7 @@ public class Tester {
                 System.out.println("|     ----------------------------------     |");
 
                 //printing out products in a vending machine
-                Scanner scan = new Scanner(register.showProducts());
+                Scanner scan = new Scanner(register.toString());
                 while(scan.hasNext()) {
                     System.out.print("|    | ");
                     System.out.printf("%-25s %s\n", scan.nextLine()," |    |");
@@ -141,7 +141,7 @@ public class Tester {
                 System.out.println("|     ----------------------------------     |");
 
                 //printing out products in a vending machine
-                Scanner scan = new Scanner(register.showProducts());
+                Scanner scan = new Scanner(register.toString());
                 while(scan.hasNext()) {
                     System.out.print("|    | ");
                     System.out.printf("%-25s %s\n", scan.nextLine()," |    |");

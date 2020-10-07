@@ -131,10 +131,10 @@ public class VendingMachine {
      * return a string of all of the products
      * @return the products as a string
      */
-    public String showProducts(){
+    public String toString(){
         String lineOfProducts = "";
         for(int i = 0; i < items.size(); i++){
-            lineOfProducts = lineOfProducts + i + ") " + items.get(i).showProduct() + "\n";
+            lineOfProducts = lineOfProducts + i + ") " + items.get(i).toString() + "\n";
         }
         return lineOfProducts;
     }
