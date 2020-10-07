@@ -4,7 +4,7 @@
  * Due Date: 10/07/20
  * Professor Mimi Opkins
  *
- * create a vending machine that contains an array list of product
+ * Summary: create a vending machine that contains an array list of product
  * users can add products and its prices into the vending machine
  * user can add money into the vending machine
  * user can buy products from the vending machine

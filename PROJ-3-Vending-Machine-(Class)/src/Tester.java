@@ -1,5 +1,9 @@
 /**
- * a tester so that the user can use the vending machine
+ *  CECS 277 Project 3
+ *  @authors: Matthew Chen, Ryan Ignasiak, Tina Vu
+ *  Due Date: 10/07/20
+ *  Professor Mimi Opkins
+ *  Summary: a tester so that the user can use the vending machine
  */
 import java.util.*;
 public class Tester {

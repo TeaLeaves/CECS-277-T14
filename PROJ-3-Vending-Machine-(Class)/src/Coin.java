@@ -1,5 +1,9 @@
 /**
- *A coin with a monetary value.
+ *  CECS 277 Project 3
+ *  @authors: Matthew Chen, Ryan Ignasiak, Tina Vu
+ *  Due Date: 10/07/20
+ *  Professor Mimi Opkins
+ *  Summary: A coin with a monetary value.
  */
 public class Coin {
     //private data members
