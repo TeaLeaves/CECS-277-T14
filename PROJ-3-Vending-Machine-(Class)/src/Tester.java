@@ -101,11 +101,15 @@ public class Tester {
                 System.out.println("2) Dime    @ $0.10");
                 System.out.println("3) Quarter @ $0.25");
                 System.out.println("4) Dollar  @ $1.00");
-                int userType = CheckInput.getIntRange(1,4);
+                System.out.println("5) Cancel");
+                int userType = CheckInput.getIntRange(1,5);
 
                 //enter amount
-                System.out.println("Enter Money Amount: ");
-                double userAmount = CheckInput.getDouble();
+                double userAmount = 0;
+                if(userType != 5) {
+                    System.out.println("Enter Money Amount: ");
+                    userAmount = CheckInput.getDouble();
+                }
 
                 //add it into the vending machine
                 if(userType == 1) {
@@ -117,8 +121,10 @@ public class Tester {
                 else if(userType == 3){
                     register.receivePayment(userAmount, QUARTER);
                 }
-                else {
+                else if(userType == 4){
                     register.receivePayment(userAmount, DOLLAR);
+                } else{
+                    System.out.println("");
                 }
 
                 //show the current amount of money in the vending machine

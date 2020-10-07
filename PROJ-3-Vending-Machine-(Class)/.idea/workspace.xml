@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="927f4117-bc9c-4d25-b53f-e1711ae9457e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/VendingMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VendingMachine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tester.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,8 +20,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CheckInput.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-12">
-              <caret line="48" column="13" lean-forward="true" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
+            <state relative-caret-position="73">
+              <caret line="13" column="47" lean-forward="true" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -29,7 +29,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/VendingMachine.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="254">
@@ -85,11 +85,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Tester.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="151" column="47" lean-forward="true" selection-start-line="151" selection-start-column="47" selection-end-line="151" selection-end-column="47" />
+            <state relative-caret-position="206">
+              <caret line="100" column="39" lean-forward="true" selection-start-line="100" selection-start-column="39" selection-end-line="100" selection-end-column="39" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -115,8 +115,8 @@
         <option value="$PROJECT_DIR$/src/CheckInput.java" />
         <option value="$PROJECT_DIR$/src/Coin.java" />
         <option value="$PROJECT_DIR$/src/Product.java" />
-        <option value="$PROJECT_DIR$/src/Tester.java" />
         <option value="$PROJECT_DIR$/src/VendingMachine.java" />
+        <option value="$PROJECT_DIR$/src/Tester.java" />
       </list>
     </option>
   </component>
@@ -273,26 +273,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tester.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="151" column="47" lean-forward="true" selection-start-line="151" selection-start-column="47" selection-end-line="151" selection-end-column="47" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CheckInput.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-12">
-          <caret line="48" column="13" lean-forward="true" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/VendingMachine.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="254">
@@ -305,6 +285,26 @@
             <element signature="e#2459#2460#0" expanded="true" />
             <element signature="e#3747#3748#0" expanded="true" />
             <element signature="e#3782#3783#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CheckInput.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="13" column="47" lean-forward="true" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="100" column="39" lean-forward="true" selection-start-line="100" selection-start-column="39" selection-end-line="100" selection-end-column="39" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
