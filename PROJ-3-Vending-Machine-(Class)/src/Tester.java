@@ -73,6 +73,28 @@ public class Tester {
             }
             //insert coin
             else if(input == 2){
+                //output money slot
+                System.out.println("------------------------------");
+                System.out.println("|                            |");
+                System.out.println("|  ------------------------  |");
+                System.out.println("|  |  Insert Bill Facing  |  |");
+                System.out.println("|  |      UP  \uD83E\uDC17           |  |");
+                System.out.println("|  ------------------------  |");
+                System.out.println("| /                       /| |");
+                System.out.println("| ------------------------ | |");
+                System.out.println("| |   ----------------   | | |");
+                System.out.println("| ----------------------- /  |");
+                System.out.println("|                            |");
+                System.out.println("|  return            coin    |");
+                System.out.println("|   ____            ------   |");
+                System.out.println("|  /   /|          |  __  |  |");
+                System.out.println("|  ---- |          |  ||  |  |");
+                System.out.println("|  |   |/          |  --  |  |");
+                System.out.println("|  ----             ------   |");
+                System.out.println("|                            |");
+                System.out.println("------------------------------");
+                System.out.println("You Get Closer to Enter Money");
+
                 //enter type of money
                 System.out.println("\nEnter Type of Money From List: ");
                 System.out.println("1) Nickel  @ $0.05");
@@ -130,7 +152,7 @@ public class Tester {
                 int purchaseNum = CheckInput.getIntRange(0,register.amountOFProducts()-1);
 
                 //buy the product and output a message
-                System.out.print(register.recordPurchase(purchaseNum));
+                System.out.print(register.recordPurchase(purchaseNum) + "\n");
 
             }
             //add product
@@ -158,6 +180,7 @@ public class Tester {
             }
             //exit
             else {
+                System.out.println("Your Change: $" + register.giveChange() + "\n");
                 System.out.println("Machine Salary: $" + register.getSalary() + "\n");
                 System.out.println("Good'Buy'. Please Come Again!");
             }
