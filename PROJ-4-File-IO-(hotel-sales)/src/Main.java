@@ -1,3 +1,4 @@
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.PrintWriter;
 
@@ -99,6 +100,7 @@ public class Main {
         catch (NumberFormatException nfe){
             System.out.println("INVALID INPUT");
         }
+        //FileNotFound has already been caught in the code so dont need a catch for it
         //announce that the txt file 'sales' was successfully made
         System.out.println("Good Bye :)");
     }
