@@ -1,0 +1,5 @@
+John Public;Dinner;29.95;6/7/2014
+Jane Public;Conference;499.00;8/9/2014
+Abby Lawrence;Dinner;23.45;10/10/2014
+Tina Vu;Spa;79.50;11/21/2014
+Mark Sans;Gym;25.69;11/29/2014
