@@ -44,15 +44,8 @@ public class Main {
                     //split the date again
                     splitDate = split[3].split("/");
                 }
-                //make sure data has 3 valid integers
-                boolean valid = false;
-                while(valid) {
-                    int month = Integer.parseInt(splitDate[0]);
-                    int date = Integer.parseInt(splitDate[1]);
-                    int year = Integer.parseInt(splitDate[2]);
-
                     //check if month is correct
-                    if( month < 0 || month > 12 || Float.isNaN(month)){
+                    while( Float.isNaN(Integer.parseInt(splitDate[0])) || Integer.parseInt(splitDate[0]) < 0 || Integer.parseInt(splitDate[0]) > 12){
                         System.out.println("INPUT ERROR, Check DATE ");
                         //get a string of txt (name:service:amount:date)
                         line = CheckInput.getString();
@@ -62,7 +55,7 @@ public class Main {
                         splitDate = split[3].split("/");
                     }
                     //check if date is correct
-                    else if( date < 0 || date > 31 || Float.isNaN(date)){
+                    while( Float.isNaN(Integer.parseInt(splitDate[1])) || Integer.parseInt(splitDate[1]) < 0 || Integer.parseInt(splitDate[1]) > 31 ){
                         System.out.println("INPUT ERROR, Check DATE ");
                         //get a string of txt (name:service:amount:date)
                         line = CheckInput.getString();
@@ -72,7 +65,7 @@ public class Main {
                         splitDate = split[3].split("/");
                     }
                     //check if year is valid
-                    else if( year < 1900 || year > 2020 || Float.isNaN(year)){
+                    while( Float.isNaN(Integer.parseInt(splitDate[2])) || Integer.parseInt(splitDate[2]) < 1900 || Integer.parseInt(splitDate[2]) > 2020 ){
                         System.out.println("INPUT ERROR, Check DATE ");
                         //get a string of txt (name:service:amount:date)
                         line = CheckInput.getString();
@@ -81,13 +74,8 @@ public class Main {
                         //split the date again
                         splitDate = split[3].split("/");
                     }
-                    //if everything is correct
-                    else{
-                        valid = true;
-                    }
-                }
                 //make sure the cost if a float
-                while(Double.isNaN(Double.parseDouble(split[2]))){
+                while(Double.isNaN(Double.parseDouble(split[2])) || Double.parseDouble(split[2]) < 0){
                     System.out.println("INPUT ERROR, Check Cost");
                     //get a string of txt (name:service:amount:date)
                     line = CheckInput.getString();
@@ -108,7 +96,10 @@ public class Main {
         catch (IOException e){
             e.printStackTrace();
         }
+        catch (NumberFormatException nfe){
+            System.out.println("INVALID INPUT");
+        }
         //announce that the txt file 'sales' was successfully made
-        System.out.println("Your Text File was Made :)");
+        System.out.println("Good Bye :)");
     }
 }
