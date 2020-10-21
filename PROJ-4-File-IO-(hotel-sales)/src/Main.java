@@ -33,7 +33,7 @@ public class Main {
                     //check if user's input is correct
                     split = line.split(";");
                 }
-                //by making sure date is valid
+                //by making sure date has valid syntax and amount
                 String[] splitDate = split[3].split("/");
                 while(splitDate.length != 3){
                     System.out.println("INPUT ERROR, Check DATE ");
@@ -44,6 +44,57 @@ public class Main {
                     //split the date again
                     splitDate = split[3].split("/");
                 }
+                //make sure data has 3 valid integers
+                boolean valid = false;
+                while(valid) {
+                    int month = Integer.parseInt(splitDate[0]);
+                    int date = Integer.parseInt(splitDate[1]);
+                    int year = Integer.parseInt(splitDate[2]);
+
+                    //check if month is correct
+                    if( month < 0 || month > 12 || Float.isNaN(month)){
+                        System.out.println("INPUT ERROR, Check DATE ");
+                        //get a string of txt (name:service:amount:date)
+                        line = CheckInput.getString();
+                        //check if user's input is correct
+                        split = line.split(";");
+                        //split the date again
+                        splitDate = split[3].split("/");
+                    }
+                    //check if date is correct
+                    else if( date < 0 || date > 31 || Float.isNaN(date)){
+                        System.out.println("INPUT ERROR, Check DATE ");
+                        //get a string of txt (name:service:amount:date)
+                        line = CheckInput.getString();
+                        //check if user's input is correct
+                        split = line.split(";");
+                        //split the date again
+                        splitDate = split[3].split("/");
+                    }
+                    //check if year is valid
+                    else if( year < 1900 || year > 2020 || Float.isNaN(year)){
+                        System.out.println("INPUT ERROR, Check DATE ");
+                        //get a string of txt (name:service:amount:date)
+                        line = CheckInput.getString();
+                        //check if user's input is correct
+                        split = line.split(";");
+                        //split the date again
+                        splitDate = split[3].split("/");
+                    }
+                    //if everything is correct
+                    else{
+                        valid = true;
+                    }
+                }
+                //make sure the cost if a float
+                while(Double.isNaN(Double.parseDouble(split[2]))){
+                    System.out.println("INPUT ERROR, Check Cost");
+                    //get a string of txt (name:service:amount:date)
+                    line = CheckInput.getString();
+                    //check if user's input is correct
+                    split = line.split(";");
+                }
+
 
                 //add the line into the txt file
                 sales.println(line);
