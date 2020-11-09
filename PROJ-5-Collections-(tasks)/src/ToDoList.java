@@ -84,7 +84,7 @@ public class ToDoList {
             //check if this task already exist in list
             for(Task loop: list){
                 //if description already exist
-                if(loop.getDescription().equals(description)){
+                if(loop.equals(newTask)){
                     //prints out the hashcode
                     System.out.println("Task Already Exists: ");
                     System.out.println("Your Input: " + newTask.hashCode());

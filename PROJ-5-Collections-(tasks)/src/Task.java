@@ -66,7 +66,7 @@ public class Task implements Comparable<Task>{
      */
     @Override
     public int hashCode() {
-        return description.hashCode();
+        return description.toLowerCase().hashCode();
     }
 
     /**
@@ -78,7 +78,7 @@ public class Task implements Comparable<Task>{
     public boolean equals(Object o) {
         Task other = (Task) o;
         //if equals
-        if(other.getDescription().equals(description)){
+        if(other.getDescription().equalsIgnoreCase(description)){
             return true;
         }
         return false;
