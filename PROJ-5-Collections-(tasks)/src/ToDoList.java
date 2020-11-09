@@ -34,7 +34,7 @@ public class ToDoList {
 
             //length not right
             if (split.length < 3) {
-                System.out.println("The priority must be an integer between 1 and 9");
+                System.out.println("Input Error. No Description Found");
             }
             //if add is not the first command
             else if (!split[0].toLowerCase().equals("add")) {
