@@ -78,7 +78,7 @@ public class Task implements Comparable<Task>{
     public boolean equals(Object o) {
         Task other = (Task) o;
         //if equals
-        if(other.getDescription().toLowerCase().equals(description.toLowerCase())){
+        if(other.getDescription().equals(description)){
             return true;
         }
         return false;
