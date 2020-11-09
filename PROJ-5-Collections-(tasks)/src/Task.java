@@ -105,4 +105,9 @@ public class Task implements Comparable<Task>{
             return -1;
         }
     }
+
+    @Override
+    public String toString() {
+        return priority + ") " + description;
+    }
 }

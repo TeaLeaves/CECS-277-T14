@@ -8,14 +8,18 @@
 import java.util.*;
 public class ToDoList {
     //values
-    PriorityQueue<Task> list = new PriorityQueue();
+    PriorityQueue<Task> list = new PriorityQueue(); //empty queue
 
-    //default constructor = new Priority Queue
+    /**
+     * default constructor = new Priority Queue
+     */
     public ToDoList(){
         PriorityQueue<Task> list = new PriorityQueue();
     }
 
-    //add tasks ('add' priority(1-9) description)
+    /**
+     * add tasks ('add' priority(1-9) description)
+     */
     public void addTask(String task){
         try {
             //separate the string into a list
@@ -85,7 +89,9 @@ public class ToDoList {
         }
     }
 
-    //next task (removes and prints most urgent task)
+    /**
+     * removes and prints most urgent task
+     */
     public void nextTask(){
         //if list is NOT empty
         if(list.size() > 0){
@@ -97,4 +103,15 @@ public class ToDoList {
         }
     }
 
+    /**
+     * @Override the toString
+     * @return a string of the Task List
+     */
+    public String toString() {
+        String output = "";
+        for(Task singleValue: list){
+            output = output + singleValue.toString() + "\n";
+        }
+        return output;
+    }
 }

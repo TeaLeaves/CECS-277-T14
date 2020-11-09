@@ -17,6 +17,7 @@ public class ToDoListTester {
         System.out.println("\"add 6 Call parents\"");
         System.out.println("\"add 5 Have dinner with friends\"");
         System.out.println("\"add 9 Sleep well\"");
+        System.out.println("------------------------------------------------------------");
         list.addTask("add 1 Complete Programming Exercise 15.11");
         list.addTask("add 8 Read for tomorrow's class");
         list.addTask("add 3 Soccer practice");
@@ -32,19 +33,27 @@ public class ToDoListTester {
         list.addTask("add bad command");
         System.out.println("Expected: The priority must be an integer between 1 and 9.");
         System.out.println();
+        System.out.println("------------------------------------------------------------");
         System.out.println("Pulling most urgent items out.");
+        System.out.println();
         list.nextTask();
         System.out.println("Expected: Complete Programming Exercise 15.11");
+        System.out.println();
         list.nextTask();
         System.out.println("Expected: Soccer practice");
+        System.out.println();
         list.nextTask();
         System.out.println("Expected: Have dinner with friends");
+        System.out.println();
         list.nextTask();
         System.out.println("Expected: Call parents");
+        System.out.println();
         list.nextTask();
         System.out.println("Expected: Read for tomorrow's class");
+        System.out.println();
         list.nextTask();
         System.out.println("Expected: Sleep well");
+        System.out.println();
         list.nextTask();
         System.out.println("Expected: There are no tasks in the list.");
     }

@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="927f4117-bc9c-4d25-b53f-e1711ae9457e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../PROJ-5-Collections-(tasks)/src/Task.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PROJ-5-Collections-(tasks)/src/ToDoList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PROJ-5-Collections-(tasks)/src/ToDoListTester.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PROJ-2-Dessert-(IPI)/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PROJ-2-Dessert-(IPI)/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PROJ-4-File-IO-(hotel-sales)/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PROJ-4-File-IO-(hotel-sales)/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PROJ-5-Collections-(tasks)/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PROJ-5-Collections-(tasks)/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PROJ-5-Collections-(tasks)/out/production/proj-5-collections-(tasks)/Task.class" beforeDir="false" afterPath="$PROJECT_DIR$/../PROJ-5-Collections-(tasks)/out/production/proj-5-collections-(tasks)/Task.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PROJ-5-Collections-(tasks)/out/production/proj-5-collections-(tasks)/ToDoList.class" beforeDir="false" afterPath="$PROJECT_DIR$/../PROJ-5-Collections-(tasks)/out/production/proj-5-collections-(tasks)/ToDoList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PROJ-5-Collections-(tasks)/out/production/proj-5-collections-(tasks)/ToDoListTester.class" beforeDir="false" afterPath="$PROJECT_DIR$/../PROJ-5-Collections-(tasks)/out/production/proj-5-collections-(tasks)/ToDoListTester.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PROJ-5-Collections-(tasks)/src/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PROJ-5-Collections-(tasks)/src/Task.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PROJ-5-Collections-(tasks)/src/ToDoList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PROJ-5-Collections-(tasks)/src/ToDoList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PROJ-5-Collections-(tasks)/src/ToDoListTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PROJ-5-Collections-(tasks)/src/ToDoListTester.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
