@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="404ccaaf-9862-4c60-8916-8b0c732ec5c3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/ToDoList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ToDoList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ToDoListTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ToDoListTester.java" afterDir="false" />
-    </list>
+    <list default="true" id="404ccaaf-9862-4c60-8916-8b0c732ec5c3" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -93,7 +90,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="847" />
     <option name="width" value="1078" />
     <option name="height" value="1090" />
@@ -166,7 +163,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="678" y="0" width="862" height="872" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
