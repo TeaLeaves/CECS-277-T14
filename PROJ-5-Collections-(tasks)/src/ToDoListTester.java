@@ -33,9 +33,17 @@ public class ToDoListTester {
         list.addTask("add bad command");
         System.out.println("Expected: The priority must be an integer between 1 and 9.");
         System.out.println();
+        System.out.println("Entering 'add 12 command'");
+        list.addTask("add 12 command");
+        System.out.println("Expected: The priority must be an integer between 1 and 9.");
+        System.out.println();
         System.out.println("Entering 'add 4'");
         list.addTask("add 4");
         System.out.println("Expected: Input Error. No Description Found");
+        System.out.println();
+        System.out.println("Entering 'add'");
+        list.addTask("add");
+        System.out.println("Expected: Input Error. No Priority and Description Found");
         System.out.println();
         System.out.println("------------------------------------------------------------");
         System.out.println("Pulling most urgent items out.");

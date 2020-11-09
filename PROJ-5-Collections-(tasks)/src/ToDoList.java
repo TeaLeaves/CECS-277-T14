@@ -87,6 +87,9 @@ public class ToDoList {
         catch (NumberFormatException e){
             System.out.println("The priority must be an integer between 1 and 9");
         }
+        catch (ArrayIndexOutOfBoundsException e){
+            System.out.println("Input Error. No Priority and Description Found");
+        }
     }
 
     /**
