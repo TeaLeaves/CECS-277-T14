@@ -5,7 +5,7 @@
  *  Professor Mimi Opkins
  *  Summary: a program that generates a Task
  */
-import java.util.*;
+
 public class Task implements Comparable<Task>{
     //values
     int priority; //num from 1-9
