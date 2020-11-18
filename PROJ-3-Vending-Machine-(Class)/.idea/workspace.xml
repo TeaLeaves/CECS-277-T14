@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="927f4117-bc9c-4d25-b53f-e1711ae9457e" name="Default Changelist" comment="" />
+    <list default="true" id="927f4117-bc9c-4d25-b53f-e1711ae9457e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../PROJ-5-Collections-(word-processor)/PROJ-5-Collections-(word-processor).iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PROJ-5-Collections-(word-processor)/src/MiniWPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PROJ-5-Collections-(word-processor)/src/Tester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PROJ-5-Collections-(word-processor)/src/wordProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PROJ-5-Collections-(tasks)/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PROJ-5-Collections-(tasks)/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PROJ-5-Collections-(tasks)/out/production/proj-5-collections-(tasks)/ToDoListTester.class" beforeDir="false" afterPath="$PROJECT_DIR$/../PROJ-5-Collections-(tasks)/out/production/proj-5-collections-(tasks)/ToDoListTester.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PROJ-5-Collections-(tasks)/src/ToDoListTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PROJ-5-Collections-(tasks)/src/ToDoListTester.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,7 +26,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CheckInput.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
+            <state relative-caret-position="170">
               <caret line="13" column="47" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
@@ -59,8 +68,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Tester.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
+            <state relative-caret-position="-612">
+              <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -91,7 +100,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="65" />
     <option name="width" value="1010" />
     <option name="height" value="1090" />
@@ -146,7 +155,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="52" y="0" width="808" height="872" extended-state="1" />
+    <frame x="52" y="0" width="808" height="872" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.24966443" />
@@ -198,7 +207,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CheckInput.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
+        <state relative-caret-position="170">
           <caret line="13" column="47" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
@@ -232,8 +241,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Tester.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
+        <state relative-caret-position="-612">
+          <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>

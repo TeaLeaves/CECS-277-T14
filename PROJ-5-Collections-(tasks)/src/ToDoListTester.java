@@ -26,6 +26,7 @@ public class ToDoListTester {
         list.addTask("add 9 Sleep well");
         System.out.println();
         System.out.println("Enter Repeated Command");
+        System.out.println("add 2 Call parents");
         list.addTask("add 2 Call parents");
         System.out.println("Expected: 'Task Already Exists: inputted task, prior task'");
         System.out.println();
