@@ -98,15 +98,14 @@ public class wordProcessor implements MiniWPI{
     @Override
     public void processCommand(String s) {
         //split string s
-        String[] command = s.split("");
-        System.out.println(command.length);
+        String[] command = s.split(" ");
 
-        //check if out of bound
-        if (command.length != 1 || command.length != 2) {
-            System.out.println("Invalid Command: Missing Information");
-        }
+//        //check if out of bound
+//        if (command.length != 1 || command.length != 2) {
+//            System.out.println("Invalid Command: Missing Information");
+//        }
         //check if value is valid
-        else if (command[1].length() > 9 || command[1].length() < 1) {
+        if (command[1].length() > 9 || command[1].length() < 1) {
             System.out.println("Invalid Command: Value Error");
         }
         //if command is "insert"

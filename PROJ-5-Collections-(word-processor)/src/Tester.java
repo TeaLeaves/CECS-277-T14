@@ -8,9 +8,8 @@
 import java.util.*;
 public class Tester{
     public static void main(String[] args) {
-        wordProcessor wProcessor = new wordProcessor("");
+        wordProcessor wProcessor = new wordProcessor("initial contents");
         Queue<String> commandqueue = new LinkedList<String>();
-
 
         commandqueue.add("insert J");
         commandqueue.add("insert K");
