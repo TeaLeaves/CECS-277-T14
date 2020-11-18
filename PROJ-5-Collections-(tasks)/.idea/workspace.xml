@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="404ccaaf-9862-4c60-8916-8b0c732ec5c3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../PROJ-5-Collections-(word-processor)/PROJ-5-Collections-(word-processor).iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PROJ-5-Collections-(word-processor)/src/MiniWPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PROJ-5-Collections-(word-processor)/src/Tester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PROJ-5-Collections-(word-processor)/src/wordProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PROJ-3-Vending-Machine-(Class)/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PROJ-3-Vending-Machine-(Class)/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/proj-5-collections-(tasks)/ToDoListTester.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proj-5-collections-(tasks)/ToDoListTester.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ToDoListTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ToDoListTester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PROJ-5-Collections-(word-processor)/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PROJ-5-Collections-(word-processor)/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PROJ-5-Collections-(word-processor)/out/production/PROJ-5-Collections-(word-processor)/Tester.class" beforeDir="false" afterPath="$PROJECT_DIR$/../PROJ-5-Collections-(word-processor)/out/production/PROJ-5-Collections-(word-processor)/Tester.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PROJ-5-Collections-(word-processor)/out/production/PROJ-5-Collections-(word-processor)/wordProcessor.class" beforeDir="false" afterPath="$PROJECT_DIR$/../PROJ-5-Collections-(word-processor)/out/production/PROJ-5-Collections-(word-processor)/wordProcessor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PROJ-5-Collections-(word-processor)/src/Tester.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PROJ-5-Collections-(word-processor)/src/Tester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PROJ-5-Collections-(word-processor)/src/wordProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PROJ-5-Collections-(word-processor)/src/wordProcessor.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />

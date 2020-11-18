@@ -8,15 +8,25 @@
 import java.util.*;
 public class Tester{
     public static void main(String[] args) {
-        wordProcessor commandqueue = new wordProcessor();
+        wordProcessor wProcessor = new wordProcessor("");
+        Queue<String> commandqueue = new LinkedList<String>();
 
-        commandqueue.processCommand("insert J");
-        commandqueue.processCommand("insert K");
-        commandqueue.processCommand("insert L");
-        commandqueue.processCommand("move left");
-        commandqueue.processCommand("move right");
-        commandqueue.processCommand("move left");
-        commandqueue.processCommand("move left");
-        commandqueue.processCommand("search K");
+
+        commandqueue.add("insert J");
+        commandqueue.add("insert K");
+        commandqueue.add("insert L");
+        commandqueue.add("move left");
+        commandqueue.add("move right");
+        commandqueue.add("move left");
+        commandqueue.add("move left");
+        commandqueue.add("search K");
+
+        //go through the commands and run it
+        for (int i = 0; i < commandqueue.size(); i++){
+            if(!commandqueue.isEmpty()) {
+                wProcessor.processCommand(commandqueue.poll());
+                i--;
+            }
+        }
     }
 }

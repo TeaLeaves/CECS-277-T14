@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc39ee84-c8ad-40b6-908f-2cd737f1b9e4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/PROJ-5-Collections-(word-processor).iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MiniWPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/wordProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PROJ-3-Vending-Machine-(Class)/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PROJ-3-Vending-Machine-(Class)/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../PROJ-5-Collections-(tasks)/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PROJ-5-Collections-(tasks)/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PROJ-5-Collections-(tasks)/out/production/proj-5-collections-(tasks)/ToDoListTester.class" beforeDir="false" afterPath="$PROJECT_DIR$/../PROJ-5-Collections-(tasks)/out/production/proj-5-collections-(tasks)/ToDoListTester.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PROJ-5-Collections-(tasks)/src/ToDoListTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PROJ-5-Collections-(tasks)/src/ToDoListTester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/wordProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/wordProcessor.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,8 +35,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/wordProcessor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="90" column="71" lean-forward="true" selection-start-line="90" selection-start-column="71" selection-end-line="90" selection-end-column="71" />
+            <state relative-caret-position="495">
+              <caret line="91" column="17" selection-start-line="91" selection-start-column="17" selection-end-line="91" selection-end-column="17" />
               <folding>
                 <element signature="e#121#122#0" expanded="true" />
                 <element signature="e#145#146#0" expanded="true" />
@@ -59,10 +54,7 @@
                 <element signature="e#974#975#0" expanded="true" />
                 <element signature="e#615#616#0" expanded="true" />
                 <element signature="e#642#643#0" expanded="true" />
-                <element signature="e#693#694#0" expanded="true" />
-                <element signature="e#721#722#0" expanded="true" />
-                <element signature="e#4044#4045#0" expanded="true" />
-                <element signature="e#4065#4066#0" expanded="true" />
+                <element signature="e#4543#4544#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -71,10 +63,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Tester.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            <state relative-caret-position="306">
+              <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
+                <element signature="e#402#410#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -133,6 +126,9 @@
         </subPane>
       </pane>
     </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -219,18 +215,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Tester.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        <state relative-caret-position="306">
+          <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
+            <element signature="e#402#410#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/wordProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="90" column="71" lean-forward="true" selection-start-line="90" selection-start-column="71" selection-end-line="90" selection-end-column="71" />
+        <state relative-caret-position="495">
+          <caret line="91" column="17" selection-start-line="91" selection-start-column="17" selection-end-line="91" selection-end-column="17" />
           <folding>
             <element signature="e#121#122#0" expanded="true" />
             <element signature="e#145#146#0" expanded="true" />
@@ -248,10 +245,7 @@
             <element signature="e#974#975#0" expanded="true" />
             <element signature="e#615#616#0" expanded="true" />
             <element signature="e#642#643#0" expanded="true" />
-            <element signature="e#693#694#0" expanded="true" />
-            <element signature="e#721#722#0" expanded="true" />
-            <element signature="e#4044#4045#0" expanded="true" />
-            <element signature="e#4065#4066#0" expanded="true" />
+            <element signature="e#4543#4544#0" expanded="true" />
           </folding>
         </state>
       </provider>

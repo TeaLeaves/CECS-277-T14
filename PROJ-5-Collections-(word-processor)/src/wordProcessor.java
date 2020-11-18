@@ -73,18 +73,33 @@ public class wordProcessor implements MiniWPI{
 
     @Override
     public String toStringCursor() {
-        return null;
+        return left.toString() + " | " + right.toString();
     }
 
     @Override
     public boolean search(char c) {
-        return false;
+        boolean bool = false;
+
+        //split string s
+        String[] command = words.split("");
+        //if not empty
+        if(command.length >= 1) {
+            for (int i = 0; i < command.length; i++) {
+                if (command[i].equals(c)) {
+                    bool = true;
+                } else {
+                    bool = false;
+                }
+            }
+        }
+        return bool;
     }
 
     @Override
     public void processCommand(String s) {
         //split string s
         String[] command = s.split("");
+        System.out.println(command.length);
 
         //check if out of bound
         if (command.length != 1 || command.length != 2) {
