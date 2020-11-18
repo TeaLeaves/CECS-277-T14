@@ -100,12 +100,27 @@ public class wordProcessor implements MiniWPI{
         //split string s
         String[] command = s.split(" ");
 
-//        //check if out of bound
-//        if (command.length != 1 || command.length != 2) {
-//            System.out.println("Invalid Command: Missing Information");
-//        }
+        //check if out of bound
+        if (command.length < 1) {
+            System.out.println("Invalid Command: Missing Information");
+        }
+        //if command is only a single letter
+        else if (command.length == 1){
+            //if command is "backspace"
+            if (s.contains("backspace") && !left.empty()) {
+                backspace();
+            }
+            //if command is "delete"
+            else if (s.contains("delete") && !right.empty()) {
+                delete();
+            }
+            //else its invalid
+            else {
+                System.out.println("Invalid Command");
+            }
+        }
         //check if value is valid
-        if (command[1].length() > 9 || command[1].length() < 1) {
+        else if (command[1].length() > 9 || command[1].length() < 1) {
             System.out.println("Invalid Command: Value Error");
         }
         //if command is "insert"
@@ -135,31 +150,19 @@ public class wordProcessor implements MiniWPI{
                 System.out.println("Invalid Command: Value Error");
             }
         }
-        //if command is "backspace"
-        else if (command[0].equals("backspace")) {
-            //only command
-            if (command.length > 1) {
-                System.out.println("Invalid Command");
-            } else {
-                backspace();
-            }
-        }
-        //if command is "delete"
-        else if (command[0].equals("delete")) {
-            //only command
-            if (command.length > 1) {
-                System.out.println("Invalid Command");
-            } else {
-                delete();
-            }
-        }
         //if command is "search"
         else if (command[0].equals("search")) {
             //if value is invalid
             if (command[1].length() != 1) {
                 System.out.println("Invalid Command: Value Error");
             } else {
-                search(command[1].charAt(0));
+                boolean found = search(command[1].charAt(0));
+                if(found = true){
+                    System.out.println("Found");
+                }
+                else {
+                    System.out.println("Does Not Exist");
+                }
             }
         }
         //else it is not any of the available command types

@@ -19,6 +19,15 @@ public class Tester{
         commandqueue.add("move left");
         commandqueue.add("move left");
         commandqueue.add("search K");
+        commandqueue.add("search");
+        commandqueue.add("backspace");
+        commandqueue.add("move start");
+        commandqueue.add("move end");
+        commandqueue.add("move left");
+        commandqueue.add("delete");
+        commandqueue.add("map Q");
+        commandqueue.add("move");
+
 
         //go through the commands and run it
         for (int i = 0; i < commandqueue.size(); i++){
